@@ -1,0 +1,32 @@
+﻿<Window x:Class="CygNet.API.Cache.Example.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CygNet.API.Cache.Example"
+        Title="CygNet.API.Cache.Example" 
+        SizeToContent="Height"
+        Width="300">
+    <StackPanel>
+        <StackPanel Orientation="Horizontal">
+            <TextBlock Text="Point tag: " />
+            <TextBox x:Name="PointTagTextBox" Width="200"/>
+        </StackPanel>
+
+        <StackPanel Orientation="Horizontal">
+            <TextBlock Text="Value: " />
+            <TextBox Text="{Binding Value}" Width="200" />
+        </StackPanel>
+        <StackPanel Orientation="Horizontal">
+            <TextBlock Text="General1: " />
+            <TextBox Text="{Binding General1}" Width="200" />
+        </StackPanel>
+        <StackPanel Orientation="Horizontal">
+            <TextBlock Text="Facility Description: " />
+            <TextBox Text="{Binding FacilityDescription}" Width="200" />
+        </StackPanel>        
+        
+        <Button Content="Retrieve Value Now" Click="Button_Click" />
+        <Button Content="Subscribe" Click="Button_Click_1" />
+    </StackPanel>
+</Window>
