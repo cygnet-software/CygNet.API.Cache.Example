@@ -36,47 +36,36 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="CygNet.API.Cache">
-      <HintPath>..\..\..\..\..\DevRelease\bin\CygNet.API.Cache.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="CygNet.API.Cache.Common">
-      <HintPath>..\..\..\..\..\DevRelease\bin\CygNet.API.Cache.Common.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="CygNet.API.Cache.Facilities">
-      <HintPath>..\..\..\..\..\DevRelease\bin\CygNet.API.Cache.Facilities.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="CygNet.API.Cache.Points">
-      <HintPath>..\..\..\..\..\DevRelease\bin\CygNet.API.Cache.Points.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="CygNet.API.Cache.Points32">
-      <HintPath>..\..\..\..\..\DevRelease\bin\CygNet.API.Cache.Points32.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="CygNet.API.Core">
-      <HintPath>..\..\..\..\..\DevRelease\bin\CygNet.API.Core.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="CygNet.Core">
-      <HintPath>..\..\..\..\..\DevRelease\bin\CygNet.Core.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="CygNet.Data.Cache">
-      <HintPath>..\..\..\..\..\DevRelease\bin\CygNet.Data.Cache.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="CygNet.Data.Core">
-      <HintPath>..\..\..\..\..\DevRelease\bin\CygNet.Data.Core.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="CygNet.Data.Facilities">
-      <HintPath>..\..\..\..\..\DevRelease\bin\CygNet.Data.Facilities.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="CygNet.Data.Points">
-      <HintPath>..\..\..\..\..\DevRelease\bin\CygNet.Data.Points.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="System" />
